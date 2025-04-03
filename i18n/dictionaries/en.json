@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "title": "RTL/LTR Landing Page",
+    "description": "A responsive landing page with RTL/LTR and dark/light mode support"
+  },
+  "navbar": {
+    "startNow": "Start Now Free",
+    "signIn": "Sign In",
+    "menu": {
+      "home": "Home",
+      "features": "Features",
+      "solutions": "Solutions",
+      "packages": "Packages",
+      "academy": "Academy"
+    },
+    "language": {
+      "switchTo": "Switch to English",
+      "current": "AR"
+    },
+    "logo": "Logo"
+  },
+  "hero": {
+    "tagline": "One Platform. Multiple Solutions",
+    "title": "Comprehensive Space for Content Writing Project Management!",
+    "description": "AI for article writing, linguistic proofreading, and search engine optimization. Thanks to our smart algorithms, we provide you with high-quality content quickly and efficiently to achieve your digital success.",
+    "startButton": "Start Now 3 Days Free",
+    "noCardNeeded": "No Credit Card Needed"
+  },
+  "features": {
+    "effectiveWriting": {
+      "title": "Effective Writing",
+      "description": "Increase productivity with fast and highly effective content writing"
+    },
+    "writingTools": {
+      "title": "Writing Tools",
+      "description": "A diverse collection of writing styles and formats"
+    },
+    "seoOptimization": {
+      "title": "SEO Optimization",
+      "description": "Optimize your content for search engines to increase visits"
+    },
+    "continuousSupport": {
+      "title": "Continuous Support",
+      "description": "Specialized technical support to facilitate your journey and solve problems"
+    }
+  },
+  "contentFrames": {
+    "title": "Integrated Tools for Professional Content Creation",
+    "frames": [
+      {
+        "title": "Create Various Types of Creative Content Quickly",
+        "description": "Create engaging and diverse content for your various marketing goals. From long articles and short posts to advertising copy and social media content."
+      },
+      {
+        "title": "Article Writing and SEO Optimization",
+        "description": "Create professional and engaging articles using advanced AI techniques. Reaching your target audience becomes easier with content optimization for keywords."
+      },
+      {
+        "title": "Comprehensive Linguistic Proofreading",
+        "description": "Detect and intelligently address grammatical and spelling errors. Clarity of ideas and language integrity are among the most important factors for successful digital content."
+      },
+      {
+        "title": "Creative Content Generation",
+        "description": "An innovative tool for generating creative ideas and engaging styles. Specify the topic, choose the style, then let the platform do the creative work."
+      }
+    ]
+  },
+  "featureSection": {
+    "title": "Integrated Content Solutions from the First Word to the Last Point!",
+    "advancedLinguisticChecking": {
+      "title": "Advanced Linguistic Checking",
+      "description": "Check and identify grammatical and spelling errors to obtain professional writing"
+    },
+    "diverseContentSupport": {
+      "title": "Diverse Content Support",
+      "description": "Easily create articles, social media posts, ads, reports and more"
+    },
+    "highQualityContent": {
+      "title": "High-Quality Content",
+      "description": "Our AI-powered tools produce engaging and professional content for a variety of activities"
+    },
+    "styleControl": {
+      "title": "Style Control",
+      "description": "Customize content style to match your brand identity"
+    },
+    "seoOptimization": {
+      "title": "SEO Optimization",
+      "description": "Improve your search rankings using keyword suggestions"
+    },
+    "customTemplates": {
+      "title": "Custom Templates",
+      "description": "Enjoy access to a library of ready-made templates to streamline content creation"
+    }
+  },
+  "customSolutions": {
+    "title": "Custom Solutions for:",
+    "contentManagers": {
+      "title": "Content Managers",
+      "description": "Plan, develop, and manage content campaigns with ease"
+    },
+    "contentWriters": {
+      "title": "Content Writers",
+      "description": "Create articles and creative digital content effortlessly"
+    },
+    "contentCreators": {
+      "title": "Content Creators",
+      "description": "Create scripts and descriptions for video content"
+    },
+    "podcastCreators": {
+      "title": "Podcast Creators",
+      "description": "Write scripts, ads, and descriptions for episodes"
+    },
+    "educators": {
+      "title": "Educators",
+      "description": "Create organized and easy-to-understand educational content"
+    },
+    "buttons": {
+      "writeAbout": "Write about the topic",
+      "chooseLanguage": "Choose language",
+      "waitForCreativity": "Wait for creativity"
+    }
+  },
+  "pricingPlans": {
+    "title": "Plans",
+    "subtitle": "Enjoy a complete set of tools and features with Mutqin.",
+    "specialOffer": {
+      "title": "Special offer for a limited time!",
+      "description": "Get an additional 30% discount on all our plans!",
+      "couponCode": "Use coupon SAVE30",
+      "enterCoupon": "Enter coupon",
+      "apply": "Apply"
+    },
+    "mostPopular": "Most Popular",
+    "monthly": {
+      "title": "Monthly Plan",
+      "price": "17.99",
+      "period": "monthly",
+      "perDay": "$0.59 per day"
+    },
+    "quarterly": {
+      "title": "Quarterly Plan (3 months)",
+      "price": "48.6",
+      "period": "3 months",
+      "perDay": "$0.54 per day"
+    },
+    "annual": {
+      "title": "Annual Plan",
+      "price": "151",
+      "period": "annually",
+      "perDay": "$0.41 per day"
+    },
+    "subscribeNow": "Subscribe Now"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Our support team is here to help. Contact us to get answers to your inquiries as quickly as possible.",
+    "items": [
+      {
+        "question": "What is Mutqin company?",
+        "answer": "Mutqin is a company specialized in providing AI solutions, focusing on developing advanced tools for content creation and search engine optimization."
+      },
+      {
+        "question": "Why is it important to use AI tools in content creation?",
+        "answer": "AI tools help save time and effort, improve content quality, increase productivity, provide new creative ideas, and enhance search engine rankings."
+      },
+      {
+        "question": "Does Mutqin provide training courses for using its tools?",
+        "answer": "Yes, Mutqin provides various training courses and comprehensive educational materials to help users maximize the benefits of its tools, in addition to webinars and customized training sessions."
+      },
+      {
+        "question": "How can companies benefit from using Mutqin tools in digital marketing strategies?",
+        "answer": "Companies can use Mutqin tools to create engaging and SEO-friendly content, improve email campaigns, create social media content, analyze content performance, and personalize marketing messages."
+      },
+      {
+        "question": "Can I try Mutqin tools before subscribing?",
+        "answer": "Yes, Mutqin offers a free 3-day trial period that allows users to experience all features and tools before committing to a subscription plan."
+      },
+      {
+        "question": "Does Mutqin provide technical support to its customers?",
+        "answer": "Yes, Mutqin provides 24/7 technical support through live chat, email, and phone, in addition to a comprehensive knowledge base and an active community forum."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Mutqin is your comprehensive platform for content writing using artificial intelligence. We provide advanced tools to help individuals and companies create distinctive, attractive, and error-free content.",
+    "features": {
+      "title": "Features",
+      "crossPlatform": "Cross-platform compatibility",
+      "accurateRecording": "Accurate recording",
+      "realTimeSearch": "Real-time search",
+      "instantInteraction": "Instant interaction",
+      "customizedResponses": "Customized responses",
+      "multilingual": "Multilingual",
+      "discoverMore": "Discover more"
+    },
+    "solutions": {
+      "title": "Solutions",
+      "articleWriting": "Article writing",
+      "socialMediaContent": "Social media content",
+      "seoOptimization": "SEO optimization",
+      "contentStrategies": "Content strategies",
+      "emailMarketing": "Email marketing",
+      "discoverMore": "Discover more"
+    },
+    "users": {
+      "title": "Users",
+      "contentWriters": "Content writers",
+      "contentCreators": "Content creators",
+      "podcastCreators": "Podcast creators",
+      "trainers": "Trainers",
+      "contentManagers": "Content managers",
+      "socialMediaMarketers": "Social media marketers"
+    },
+    "copyright": "© 2025 Mutqinai - All rights reserved"
+  }
+}
+

@@ -96,11 +96,12 @@ const Carousel = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEl
       }
 
       onSelect(api)
-      api.on("reInit", onSelect)
       api.on("select", onSelect)
+      api.on("reInit", onSelect)
 
       return () => {
-        api?.off("select", onSelect)
+        api.off("select", onSelect)
+        api.off("reInit", onSelect)
       }
     }, [api, onSelect])
 
@@ -108,9 +109,9 @@ const Carousel = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEl
       <CarouselContext.Provider
         value={{
           carouselRef,
-          api: api,
+          api,
           opts,
-          orientation: orientation || (opts?.axis === "y" ? "vertical" : "horizontal"),
+          orientation,
           scrollPrev,
           scrollNext,
           canScrollPrev,
@@ -177,10 +178,10 @@ const CarouselPrevious = React.forwardRef<HTMLButtonElement, React.ComponentProp
         variant={variant}
         size={size}
         className={cn(
-          "h-8 w-8 rounded-full",
+          "absolute h-8 w-8 rounded-full",
           orientation === "horizontal"
-            ? "absolute left-4 top-1/2 -translate-y-1/2"
-            : "absolute left-1/2 top-4 -translate-x-1/2 rotate-90",
+            ? "-left-12 top-1/2 -translate-y-1/2"
+            : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
           className,
         )}
         disabled={!canScrollPrev}
@@ -205,10 +206,10 @@ const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<ty
         variant={variant}
         size={size}
         className={cn(
-          "h-8 w-8 rounded-full",
+          "absolute h-8 w-8 rounded-full",
           orientation === "horizontal"
-            ? "absolute right-4 top-1/2 -translate-y-1/2"
-            : "absolute bottom-4 left-1/2 -translate-x-1/2 rotate-90",
+            ? "-right-12 top-1/2 -translate-y-1/2"
+            : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
           className,
         )}
         disabled={!canScrollNext}
@@ -224,4 +225,3 @@ const CarouselNext = React.forwardRef<HTMLButtonElement, React.ComponentProps<ty
 CarouselNext.displayName = "CarouselNext"
 
 export { type CarouselApi, Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext }
-

@@ -7,7 +7,9 @@ import { type Locale, locales } from "@/i18n/config"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { getDictionary } from "@/i18n/get-dictionary"
-
+import { useTheme } from "next-themes"
+import { SolutionsCarousel } from "@/components/solutions-carousel"
+import Head from "next/head"
 const almarai = Almarai({
   subsets: ["arabic"],
   weight: ["300", "400", "700", "800"],
@@ -15,7 +17,7 @@ const almarai = Almarai({
 })
 
 export const metadata: Metadata = {
-  title: "RTL/LTR Landing Page",
+  title: "مُتْقِن",
   description: "A responsive landing page with RTL/LTR and dark/light mode support",
 }
 
@@ -35,13 +37,20 @@ export default async function RootLayout({
 
   return (
     <html lang={params.lang} dir={direction} suppressHydrationWarning>
-      <body className={`${almarai.variable} font-almarai`}>
+      
+      <body className={`${almarai.variable} font-almarai`}    >
+
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-          <div className="flex flex-col min-h-screen">
-            <Navbar currentLang={params.lang} dictionary={dictionary} />
+           <Head>
+              <link rel="icon" href="/logo.png" />
+            </Head>
+          <div className="flex lg:mx-32 mx-4 flex-col min-h-screen " >
+            <Navbar currentLang={params.lang} dictionary={dictionary}  />
             <main className="flex-grow">{children}</main>
-            <Footer direction={direction} dictionary={dictionary} />
+       
           </div>
+          <Footer direction={direction} dictionary={dictionary} />
+            
         </ThemeProvider>
       </body>
     </html>

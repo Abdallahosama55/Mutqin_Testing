@@ -1,21 +1,21 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import { ThemeProvider as NextThemesProvider } from "next-themes"
-import type { ThemeProviderProps } from "next-themes"
+import { useEffect } from "react";
+import { ThemeProvider as NextThemesProvider, useTheme } from "next-themes";
 
-export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
-  const [mounted, setMounted] = React.useState(false)
+export function ThemeProvider({ children, ...props }: any) {
+  const { theme } = useTheme();
 
-  // Avoid hydration mismatch by only rendering the children after mounting
-  React.useEffect(() => {
-    setMounted(true)
-  }, [])
+  useEffect(() => {
+    // تغيير صورة الخلفية بناءً على الثيم
+    if (theme === "dark") {
+      document.body.classList.add("dark");
+      document.body.style.backgroundImage = "url('/png/darkb.svg')";
+    } else {
+      document.body.classList.remove("dark");
+      document.body.style.backgroundImage = "url('/png/light.svg')";
+    }
+  }, [theme]);
 
-  if (!mounted) {
-    return <div style={{ visibility: "hidden" }}>{children}</div>
-  }
-
-  return <NextThemesProvider {...props}>{children}</NextThemesProvider>
+  return <NextThemesProvider {...props}>{children}</NextThemesProvider>;
 }
-

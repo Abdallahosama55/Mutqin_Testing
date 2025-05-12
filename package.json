@@ -1,5 +1,5 @@
 {
-  "name": "rtl-landing-page",
+  "name": "mutqin",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,14 +20,18 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "cmdk": "^0.2.0",
-    "embla-carousel-react": "^8.0.0-rc17",
+    "embla-carousel-auto-scroll": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "embla-carousel-reactive-utils": "^8.6.0",
     "framer-motion": "^10.18.0",
     "lucide-react": "^0.294.0",
     "next": "14.0.4",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-slick": "^0.30.3",
     "server-only": "^0.0.1",
+    "slick-carousel": "^1.8.1",
     "tailwind-merge": "^2.1.0",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -43,4 +47,3 @@
     "typescript": "^5.3.3"
   }
 }
-

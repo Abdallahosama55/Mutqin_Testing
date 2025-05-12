@@ -13,7 +13,7 @@ export function LanguageSelector({ currentLang, dictionary }: LanguageSelectorPr
   return (
     <Link
       href={`/${otherLang}`}
-      className="flex items-center gap-1 bg-gray-100 rounded-full px-3 py-1.5 text-sm font-medium text-gray-700 hover:bg-gray-200 transition-colors"
+      className="flex items-center gap-1 dark:bg-[#313030] bg-gray-100 rounded-full px-3 py-1.5 text-sm font-medium text-gray-700 dark:text-gray-100 hover:bg-gray-200 transition-colors"
     >
       <Globe className="h-4 w-4" />
       <span>{dictionary.navbar.language.current}</span>

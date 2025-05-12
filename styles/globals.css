@@ -89,6 +89,15 @@ body {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply  text-foreground;
+    background-image: url('/png/light.svg') !important;
   }
+}
+.bgDark{
+  background-image: url('/png/dark.svg') !important;
+  background-size: cover !important;
+}
+.bgLight{
+  background-image: url('/png/light.svg') !important;
+  background-size: cover !important;
 }

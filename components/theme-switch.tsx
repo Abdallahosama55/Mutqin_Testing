@@ -6,7 +6,7 @@ import { Moon, Sun } from "lucide-react"
 import { motion } from "framer-motion"
 
 
-export function ThemeSwitch() {
+export function ThemeSwitch({isRTL}:any) {
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
@@ -34,10 +34,20 @@ export function ThemeSwitch() {
         <Moon className="h-4 w-4 text-white" />
       </div>
       <motion.div
-        className="w-6 h-6 rounded-full sun  shadow-md z-10"
-        animate={{ x: isDark ? -26 : 0 }}
-        transition={{ type: "spring", stiffness: 300, damping: 15 }}
-      />
+  className="w-6 h-6 rounded-full sun shadow-md z-10"
+  animate={{
+    x:
+    isRTL
+        ? isDark
+          ? -26
+          : 0
+        : isDark
+        ? 26
+        : 0,
+  }}
+  transition={{ type: "spring", stiffness: 300, damping: 15 }}
+/>
+
     </div>
   )
 }

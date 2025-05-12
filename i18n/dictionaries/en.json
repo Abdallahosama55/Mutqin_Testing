@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "RTL/LTR Landing Page",
+    "title": "Mutqin",
     "description": "A responsive landing page with RTL/LTR and dark/light mode support"
   },
   "navbar": {
@@ -49,23 +49,28 @@
     "frames": [
       {
         "title": "Create Various Types of Creative Content Quickly",
-        "description": "Create engaging and diverse content for your various marketing goals. From long articles and short posts to advertising copy and social media content."
+        "description": "Create engaging and diverse content for your various marketing goals. From long articles and short posts to advertising copy and social media content.",
+        "scrImg":"./png/c1.png"
       },
       {
         "title": "Article Writing and SEO Optimization",
-        "description": "Create professional and engaging articles using advanced AI techniques. Reaching your target audience becomes easier with content optimization for keywords."
+        "description": "Create professional and engaging articles using advanced AI techniques. Reaching your target audience becomes easier with content optimization for keywords.",
+          "scrImg":"./png/c2.png"
       },
       {
         "title": "Comprehensive Linguistic Proofreading",
-        "description": "Detect and intelligently address grammatical and spelling errors. Clarity of ideas and language integrity are among the most important factors for successful digital content."
+        "description": "Detect and intelligently address grammatical and spelling errors. Clarity of ideas and language integrity are among the most important factors for successful digital content.",
+        "scrImg":"./png/c3.png"
       },
       {
         "title": "Creative Content Generation",
-        "description": "An innovative tool for generating creative ideas and engaging styles. Specify the topic, choose the style, then let the platform do the creative work."
+        "description": "An innovative tool for generating creative ideas and engaging styles. Specify the topic, choose the style, then let the platform do the creative work.",
+       "scrImg":"./png/c4.png"
       }
     ]
   },
   "featureSection": {
+    "propeties":"Advantages",
     "title": "Integrated Content Solutions from the First Word to the Last Point!",
     "advancedLinguisticChecking": {
       "title": "Advanced Linguistic Checking",
@@ -120,6 +125,29 @@
       "waitForCreativity": "Wait for creativity"
     }
   },
+  
+    "featureAll": {
+      "propeties": "Complete Content Solutions",
+      "title": "Everything You Need to Write and Manage Content in One Place!",
+      "description": "Whether you're running a website, creating social media content, or working on SEO, we’re here to support you at every step of your journey.",
+      "effectiveWriting": {
+        "title": "Creative Ideas",
+        "description": "Grab your audience’s attention with compelling content that encourages engagement and sharing."
+      },
+      "writingTools": {
+        "title": "Rank Higher",
+        "description": "Improve your SEO rankings with well-structured and highly organized articles."
+      },
+      "seoOptimization": {
+        "title": "Fix Mistakes",
+        "description": "Ensure your content is free from grammar and spelling errors."
+      },
+      "continuousSupport": {
+        "title": "Precise Rewriting",
+        "description": "Refresh your old content with a new and more attractive writing style."
+      }
+    },
+  
   "pricingPlans": {
     "title": "Plans",
     "subtitle": "Enjoy a complete set of tools and features with Mutqin.",
@@ -181,6 +209,11 @@
       }
     ]
   },
+  "Production": {
+  "ProductionTitle": "Boost Your Writing Productivity",
+  "ProductionDes": "Using Motqin is like having an entire team of expert content writers creating powerful content for you with a single click."
+},
+
   "footer": {
     "description": "Mutqin is your comprehensive platform for content writing using artificial intelligence. We provide advanced tools to help individuals and companies create distinctive, attractive, and error-free content.",
     "features": {
